@@ -1,0 +1,2 @@
+s = {8, 7, 12, "Harry", [1,2]}
+# no you cannot create a set with a list inside it because lists are mutable and cannot be hashed. Sets require their elements to be hashable, which means they must be immutable. Therefore, you can only include immutable types like integers, strings, and tuples in a set.
